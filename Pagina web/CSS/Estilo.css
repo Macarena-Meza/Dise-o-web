@@ -177,7 +177,7 @@ header{
 }
 
 .agregar-imagen{
-    object-fit: cover; /* Que funcion cumple? */
+    object-fit: cover; 
     width: 60%;
     border-radius: 10px;
     transform: scale(0);
@@ -299,7 +299,6 @@ footer{
 }
 
 @media screen and (max-width:800px){
-    /* Antes de escribir esto volvi a ".menu-navegacion{} y en "transform: translate(110%)" le modifique el "110%" por "0", una vez hecho eso lo visualize en el navegador, le escribi en esta seccion la clase y el "width" una vez hecho eso, volvi al nevegador lo visulice en esa mediada, y como esaba bien, volvi a ".menu-navegacion{}" y le modifique nuevamente el valor a como estaba "110%"*/
     .menu-navegacion{
         width: 50vw;
     }
@@ -321,7 +320,6 @@ footer{
         margin-bottom: 30px;
     }
 
-    /* Nuevamente para modificar eswte valor tuve que previamente modificar el valr de ".agregar-imagen{}" "transform: scale(0);" a "transform: scale(1);" y despues en ".imagen-light" en "transform: traslate(100%);" a "transform: traslate(0);". Luego de esto escribi este comando lo visulice y como quedo bien, subi y restableci los valores como estaban antes*/
     .agregar-imagen{
         width: 80%;
     }
